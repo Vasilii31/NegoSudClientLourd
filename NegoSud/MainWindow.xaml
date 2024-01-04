@@ -1,4 +1,4 @@
-﻿ ﻿<Window x:Class="NegoSud.MainWindow"
+﻿<Window x:Class="NegoSud.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,11 +9,14 @@
         WindowStyle="None"
         Background="Transparent"
         AllowsTransparency="True">
+    <Window.Resources>
+        
+    </Window.Resources>
 
     <Window.DataContext>
         <viewModel:MainViewModel/>
     </Window.DataContext>
-    
+
     <Border Background="#460A26"
             CornerRadius="20">
         <Grid>
@@ -26,7 +29,7 @@
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            
+
             <TextBlock Text="NegoSud" VerticalAlignment="Center"
            HorizontalAlignment="Center"
            Foreground="Wheat"
@@ -44,7 +47,7 @@
                              Foreground="Wheat"
                              FontSize="22"
                              FontWeight="Bold"
-                             Style="{StaticResource MenuButtonTheme}"/> 
+                             Style="{StaticResource MenuButtonTheme}"/>
                 <RadioButton Content="Commandes"
                              Height="50"
                              Foreground="Wheat"
@@ -95,7 +98,7 @@
                      HorizontalAlignment="Left"
                      Margin="5"
                      Grid.Column="1"
-                     Style="{StaticResource ModernTextbox}"/>
+                     Style="{StaticResource ModernTextbox}" TextChanged="TextBox_TextChanged"/>
             <ContentControl Grid.Row="1" Grid.Column="1"
                             Margin="10"
                             Content="{Binding CurrentView}"/>
@@ -103,7 +106,7 @@
 
         </Grid>
 
-        
+
     </Border>
-    
+
 </Window>

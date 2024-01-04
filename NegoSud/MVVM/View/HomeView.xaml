@@ -30,7 +30,7 @@
                         Grid.Column="0">
                 
                 <TextBlock Text="Commandes auto à Valider"
-                        TextWrapping="Wrap"
+                        TextWrapping="Wrap" 
                         TextAlignment="Center"
                         Foreground="White"
                         FontSize="22"

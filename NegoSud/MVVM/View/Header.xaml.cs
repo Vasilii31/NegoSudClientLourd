@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace NegoSud.MVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour Page2.xaml
+    /// Logique d'interaction pour Page3.xaml
     /// </summary>
-    public partial class Page2 : Window
+    public partial class Header : UserControl
     {
-        public Page2()
+        public Header()
         {
             InitializeComponent();
         }

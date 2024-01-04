@@ -1,4 +1,4 @@
-﻿<Window x:Class="NegoSud.MainWindow"
+﻿<Window x:Class="NegoSud.Page2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -27,10 +27,6 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-
-
-
-
             <TextBlock Text="NegoSud" VerticalAlignment="Center"
            HorizontalAlignment="Center"
            Foreground="Wheat"
@@ -55,7 +51,9 @@
                         <ColumnDefinition Width="178"/>
                         <ColumnDefinition Width="178"/>
                     </Grid.ColumnDefinitions>
-                   
+
+                    
+
                 </Grid>
 
 
@@ -129,6 +127,7 @@
                      Margin="5,18,0,17"
                      Grid.Column="1"
                      Style="{StaticResource ModernTextbox}"/>
+            <Border BorderBrush="Black" BorderThickness="1"/>
 
 
 

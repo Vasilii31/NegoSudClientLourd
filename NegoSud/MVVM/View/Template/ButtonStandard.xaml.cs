@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NegoSud.MVVM.View
+namespace NegoSud.MVVM.View.Template
 {
     /// <summary>
-    /// Logique d'interaction pour Page2.xaml
+    /// Logique d'interaction pour ButtonStandard.xaml
     /// </summary>
-    public partial class Page2 : Window
+    public partial class ButtonStandard : UserControl
     {
-        public Page2()
+        public ButtonStandard()
         {
             InitializeComponent();
         }

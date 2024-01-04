@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MaterialDesignThemes.Wpf;
 
 namespace NegoSud.MVVM.View
 {
     /// <summary>
-    /// Logique d'interaction pour Page2.xaml
+    /// Logique d'interaction pour Page3.xaml
     /// </summary>
-    public partial class Page2 : Window
+    public partial class Button : UserControl
     {
-        public Page2()
+        public Button()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string texteSaisi = (sender as TextBox).Text;
         }
     }
 }
